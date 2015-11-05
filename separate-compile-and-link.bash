@@ -17,3 +17,4 @@ ghc -outputdir=build app/UsesModule app/Module -i src/Lib -no-link
 ghc -outputdir=build build/Main.o build/Module.o build/Lib.o -o build/usesmodule
 build/usesmodule
 
+rm -rf build
